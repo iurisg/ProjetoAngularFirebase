@@ -1,6 +1,59 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-title>
+            Focus Eleição
+        </ion-title>
+    </ion-toolbar>
+</ion-header>
+
+
 <ion-content [fullscreen]="true">
 
-    
-    
-
+    <ion-row class="ion-justify-content-center">
+        <ion-col size="12" size-lg="6">
+            <form #criarContaForm="ngForm" (ngSubmit)="criarConta(criarContaForm.value)">
+                <ion-item>
+                    <ion-input label="E-mail" name="email" ngModel type="text"></ion-input>
+                </ion-item>
+                <ion-item>
+                    <ion-input label="senha" name="senha" ngModel type="password"></ion-input>
+                </ion-item>
+                <ion-item lines="none">
+                    <ion-item lines="none">
+                        <ion-button color="light" slot="start" type="submit">cadastrar</ion-button>
+                        <ion-button color="light" slot="end" routerLink="/home">voltar</ion-button>
+                    </ion-item>
+                </ion-item>
+           
+            </form>
+            
+        
+        </ion-col>
+    </ion-row>
+    <ion-row class="ion-justify-content-center">
+        <ion-col size="12" size-lg="6">
+            <form #criarContaForm="ngForm" (ngSubmit)="criarConta(criarContaForm.value)">
+                <ion-item>
+                    <ion-input label="E-mail" name="email" ngModel type="text"></ion-input>
+                </ion-item>
+                <ion-item>
+                    <ion-input label="senha" name="senha" ngModel type="password"></ion-input>
+                </ion-item>
+                <ion-item lines="none">
+                    <ion-item lines="none">
+                        <ion-button color="light" slot="start" type="submit">cadastrar</ion-button>
+                        <ion-button color="light" slot="end" routerLink="/home">voltar</ion-button>
+                    </ion-item>
+                </ion-item>
+           
+            </form>
+            
+        
+        </ion-col>
+    </ion-row>
+    <div>
+        <canvas #votosChart></canvas>
+    </div>
+      
+   
 </ion-content>

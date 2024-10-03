@@ -4,13 +4,14 @@
 
 export const environment = {
   firebaseConfig: {
-    apiKey: "AIzaSyAgqpnXNxZ8abif8ssQq_C2s998w7jZb68",
-    authDomain: "api-aula-d6451.firebaseapp.com",
-    projectId: "api-aula-d6451",
-    storageBucket: "api-aula-d6451.appspot.com",
-    messagingSenderId: "48648388488",
-    appId: "1:48648388488:web:dc73e0a1496a52cd4b843d",
-    measurementId: "G-CR3MDWMWJF"
+    apiKey: "AIzaSyD6GAuoYN1bqF3wlUvcvj0Wf4mfonpc07k",
+  authDomain: "votacao-fb7ae.firebaseapp.com",
+  databaseURL: "https://votacao-fb7ae-default-rtdb.firebaseio.com",
+  projectId: "votacao-fb7ae",
+  storageBucket: "votacao-fb7ae.appspot.com",
+  messagingSenderId: "448553591828",
+  appId: "1:448553591828:web:05d2a786f9e98fef0db301",
+  measurementId: "G-RCB3DWL4JZ"
   },
   production: false
 };
